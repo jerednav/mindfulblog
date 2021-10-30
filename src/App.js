@@ -1,14 +1,13 @@
 import React from "react";
 import Topbar from "./components/topbar/Topbar";
+import Home from "./pages/home/Home";
 
 function App() {
   return (
     <div className='App'>
       <>
         <Topbar />
-        <p>Test</p>
-        <p>Test</p>
-        <p>Test</p>
+        <Home />
       </>
     </div>
   );
