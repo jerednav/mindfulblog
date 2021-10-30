@@ -1,4 +1,3 @@
-import React from 'react'
 import './header.css'
 
 export default function Header() {
@@ -8,7 +7,8 @@ export default function Header() {
                 <span className="headerTitleSm">Mindful</span>
                 <span className="headerTitleLg">Blog</span>
             </div>
-            <img src="https://inspirationfeed.com/wp-content/uploads/2015/04/blurred-background.jpg" alt="" className="headerImg" />
+            <img 
+            className='headerImg' src="./images/coverimage.jpg" alt="" />
         </div>
     )
 }
